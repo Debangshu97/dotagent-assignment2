@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*The following code is to give the webapp an aesthetic color changing background */
+body {
+  background: linear-gradient(-45deg, #ee7752, #b2ff59, #fff685, #00ddff);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
